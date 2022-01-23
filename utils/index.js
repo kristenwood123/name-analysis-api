@@ -49,3 +49,12 @@ exports.validateGender = (gender) => {
   }
   return gender;
 };
+
+exports.validateAge = (age) => {
+  if (age < 0 || age > 120) {
+    return {
+      error: "Age must be more than 0 and less than 120 years old.",
+    };
+  }
+  return age;
+};
