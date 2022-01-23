@@ -1,0 +1,362 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "male": 
+        {
+         "description1": "Your name indicates you have a basic desire to be good, have integrity and be balanced. In stressful situations you strive to be right and justify yourself. You are consistent with your ideals and seek to be above criticism.",
+         "description2": "Your name indicates you have a strong desire to improve yourself and the world in many ways. You seek to overcome adversity and you strive for 'higher' values."
+        },
+       "female": {
+         "description1": "Your name indicates you do not like to be condemned by anyone and seek to improve yourself and everything around you. You have a desire to be good and have strong integrity.",
+         "description2": "You are very strict with yourself and will seek to justify yourself in your own eyes and the eyes of thers. You have a desire to be good and have strong integrity. You are consistent with your ideals and seek to be above criticism."
+        }
+    },
+   {
+      "id": 1,
+      "male": 
+        {
+         "description1": "Your name indicates you have a desire to be good and have strong integrity. You are able to developer deep focus on different topics in life which allows you to do many things well.",
+         "description2": "Your name indicates you are insightful, curious and alert. You have a basic desire to be capable and competent."
+        },
+       "female": {
+         "description1": "Your name indicates you are empathetic, friendly and warm-hearted. You are drive to be close to others, but at times can slip into doing things for others in order to be needed. ",
+         "description2": "Your name indicates you are empathetic, friendly and warm-hearted. You are self-sacrificing and care deeply about connection and relationships."
+        }
+    },
+      {
+      "id": 2,
+      "male": 
+        {
+         "description1": "Your name indicates you see the positive qualities in people. You are most interested in love, closeness, sharing, and friendship.",
+         "description2": "Your name indicates you"
+        },
+       "female": {
+         "description1": "Your name indicates you have an open heart and desire to enliven the lives of others. You give people your appreciationa and your attention.",
+         "description2": "Your name indicates you are generous and outgoing. You are self-sacrificing and care about the depths of your relationships and spending quality time with people you care about."
+        }
+    },
+       {
+      "id": 3,
+      "male": 
+        {
+         "description1": "Your name indicates you are relentless in your pursuit of knowledge. You seek to understand the deep things of the world including yourself and those around you.",
+         "description2": "Your name indicates you seek to understand the deep things of the world including yourself and those around you. Knowledge, understanding and insight is highly valued by you."
+        },
+       "female": {
+         "description1": "Your name indicates you desire to seek knowledge in everything around you. You find a sense of meaning by understanding how the world works, including your inner world.",
+         "description2": "Your name indicates you seek a deep understanding of yourself and everything around you. You believe that by developing this nich is the best way to gain your independence."
+        }
+    },
+      {
+      "id": 4,
+      "male": 
+        {
+         "description1": "Your name indicates you desire security and self-esteem, which you gain by having knowledge in multiple areas. You probably have many areas of expertise which allows you to feel capable and connected with the world.",
+         "description2": "Your name indicates you do not depend on social validation. You probably have many areas of expertise which allows you to feel capable and connected with the world."
+        },
+       "female": {
+         "description1": "Your name indicates you spend a lot of time observing and contemplating on ideas and your environment around you. You are a deep thinker and seek to achieve inner peace above all else.",
+         "description2": "Your name indicates you are extroverted but also love spending time alone to contemplate deep thoughts. You want to maintain your freedom and happiness but also don't wish to enjoy experiences with others."
+        }
+    },
+    {
+      "id": 5,
+      "male": 
+        {
+         "description1": "Your name indicates you are optimistic and spontaneous. You are high-spirited, and seek new and exciting experiences which is when you are most satisfied in life.",
+         "description2": "Your name indicates you are optimistic and spontaneous and playful. You do not take seriously the opinions of others, and strive to live life to the beat of your own drum."
+        },
+       "female": {
+         "description1": "Your name indicates you approach life with curiosity and a sense of adventure. You are a fast learner and your ability to absorb new information allows you to be able to learn create and pick up many skills with ease.",
+         "description2": "Your name indicates you approach life positively and generally view the world and people in a generous light. You probably have many areas of expertise which allows you to feel capable and connected with the world."
+        }
+    },
+    {
+      "id": 6,
+      "male": 
+        {
+         "description1": "Your name indicates you are exuberant and upbeat. When you are balanced within you are the most satisfied, happy and fulfilled",
+         "description2": "Your name indicates you are naturally cheerful and good humored. You do not take yourself too seriously and are often the center of attention when you walk into a room."
+        },
+       "female": {
+         "description1": "Your name indicates your joy and enthusiasm for life effects everyone around you. You are good humored and cheerful, and enjoy lifting people up around you.",
+         "description2": "You do not take yourself too seriously and are often the center of attention when you walk into a room. You are optimistic and upbeat, people often feel safe and enjoy being around you."
+        }
+    },
+    {
+      "id": 7,
+      "male": 
+        {
+         "description1": "Your name indicates you are self-assured and ambitious. You are often a role modely to others and desire to feel valuable and worthwhile.",
+         "description2": "Your name indicates you are self-assured, and charming. You are competent and energetic but also highly drive for advancement."
+        },
+       "female": {
+         "description1": "Your name indicates you are self-assured, and charming. You desires to achieve great things in the world and people look up to you for your graciousness and accomplishments.",
+         "description2": "Your name indicates you are successful and inner-directed and authentic. You are well regarded and well liked among your peers."
+        }
+    },
+    {
+      "id": 8,
+      "male": 
+        {
+         "description1": "Your name indicates you want to find out why things are the way they are. You are an investigator. You are always searching, asking questions and love diving deep into different subjects.",
+         "description2": "Your name indicates you want to find out why things are the way they are. You are an investigator. You desire to be independent, innovative and pursue deep knowledge."
+        },
+       "female": {
+         "description1": "Your name indicates you are ambitious to improve yourself. You are highly motivating to those around you and are driven to developer yourself and contribute your abilities to the world.",
+         "description2": "Your name indicates you are ambitious, and driven to improve yourself. You are competent and energetic but also highly drive for advancement."
+        }
+    },
+    {
+      "id": 9,
+      "male": 
+        {
+         "description1": "Your name indicates you are self-aware, honest and creative. You have a strong desire to discover yourself and find your identity.",
+         "description2": "Your name indicates you are self-aware, sensitive and creative. You desire to express yourself and your individuality."
+        },
+       "female": {
+         "description1": "Your name indicates you are self-aware, honest and creative. You desire to take care of emotional needs before attending to anything else.",
+         "description2": "Your name indicates you are self-aware, sensitive and reserved. You are very introspective and see yourself as uniquely talented."
+        }
+    },{
+      "id": 10,
+      "male": 
+        {
+         "description1": "Your name indicates you want to find out why things are the way they are. You are an investigator. You are always searching, asking questions and love diving deep into different subjects.",
+         "description2": "Your name indicates you with deeply to connect with people who understand you and your feelings. You are self-aware, itrospective and on are the constant 'search for self'."
+        },
+       "female": {
+         "description1": "Your name indicates you are reliable, hard-working and responsible. You are great at solving problems and foster cooperation among your peers.",
+         "description2": "Your name indicates you are reliable, hard-working and trustworthy. You are able to foresee problems and at your best you are internally stable and self-reliant."
+        }
+    },
+    {
+      "id": 11,
+      "male": 
+        {
+         "description1": "Your name indicates you are internally stable and courageously champion yourself and those around you. You desire to feel supported by others and are very loyal to your friends and beliefs.",
+         "description2": "Your name indicates you desire to feel supported by others and are very loyal to your friends and beliefs. You are strongest when you are in touch with your inner guidance and can have peace within yourself despite the uncertainties of life."
+        },
+       "female": {
+         "description1": "Your name indicates you are strongest when you are in touch with your inner guidance and can have peace within yourself despite the uncertainties of life. you are reliable, hard-working and trustworthy.",
+         "description2": "Your name indicates you re self-assured, and ambitious. You are very intro"
+        }
+    },
+    {
+      "id": 12,
+      "male": 
+        {
+         "description1": "Your name indicates you are optimistic and spontaneous. People love your playful spirit and you constanstly seek new and exciting experiences.",
+         "description2": "Your name indicates you are optimistic, versatile and a fast learner. You desire to maintain your freedom and happiness."
+        },
+       "female": {
+         "description1": "Your name indicates you are self-assured, ambitious and self-reliant. You desire to make a positive lasting impact on those around you and be remembered for your good nature.",
+         "description2": "Your name indicates you are self-confident and assertive. You are resouceful, protective and desire to be in control of your environment."
+        }
+    },
+    {
+      "id": 13,
+      "male": 
+        {
+         "description1": "Your name indicates you enjoy taking on challenges and also giving others the opportunity to succeed. You are self-sacrificing and care about the depths of your relationships and spending quality time with people you care about.",
+         "description2": "Your name indicates you are charismastic and self-reliant. You are optimistic and upbeat, people often feel safe and enjoy being around you."
+        },
+       "female": {
+         "description1": "Your name indicates you are accepting, trusting and stable. You desire to be deeply connected to your inner guidance and have a positive influence on those you care most about.",
+         "description2": "Your name indicates you are self-less, trusting and honest. You care about the depths of your relationships and spending quality time with people you care about."
+        }
+    },
+    {
+      "id": 14,
+      "male": 
+        {
+         "description1": "Your name indicates you are creative, optimistic and supportive. You desire everything to go smoothly and be without conflict.",
+         "description2": "Your name indicates you creative, trusting and supportive. You have an incredible ability to bring people together and you desire to feel supported by others and are very loyal to your friends and beliefs."
+        },
+       "female": {
+         "description1": "Your name indicates you are devoted to the quest of internal and external peace for yourself and others. You desire to have a peace of mind and work well with those around you.",
+         "description2": "Your name indicates you are an excellent communicator and passionate about personal development. You are also eager to hear other people's ideas and opinions even if they differ from your own."
+        }
+    },
+     {
+      "id": 15,
+      "male": 
+        {
+         "description1": "Your name indicates you are insightful, principled, and passionate. You find beauty in everything and are not afaid to venture beyong your comfort zone to have new experiences.",
+         "description2": "Your name indicates you are insightful, altruistic, and passionate. You are sensitive to other peoples moods or expressions and to other people's feelings and needs."
+        },
+       "female": {
+         "description1": "Your name indicates you are insightful, creative, and passionate. You have a lot to say but you are also a caring listener and have an innate ability to have positive and enjoyable conversations with all kinds of people.",
+         "description2": "Your name indicates you are insightful, curious, and altruistic. You strive to get along with just about everyone and have a long list of acquaintances and friends."
+        }
+    }, {
+      "id": 16,
+      "male": 
+        {
+         "description1": "Your name indicates you are curious, ethusiastic and perceptive. You desire to have deep meaningul conversations but also have the ability to be spontaneous and lighthearted.",
+         "description2": "Your name indicates you are good-natured, ethusiastic and perceptive. You have an innate ability to have positive and enjoyable conversations with all kinds of people."
+        },
+       "female": {
+         "description1": "Your name indicates you are curious, insightful and perceptive. You are sensitive to other peoples moods or expressions and to other people's feelings and needs.",
+         "description2": "Your name indicates you are creative, ethusiastic and optimistic. You have an incredible ability to have positive and enjoyable conversations with all sorts of people, even with ones you may not agree with." 
+        }
+    },
+     {
+      "id": 17,
+      "male": 
+        {
+         "description1": "Your name indicates you are receptive, reliable and passionate. You have strong opinions but also recognize the importance of allowing others to express themselves.",
+         "description2": "Your name indicates you receptive, altruistic and passionate. You aren't bothered by maybe things and people often look to you for guidance and direction."
+        },
+       "female": {
+         "description1": "Your name indicates you insightful, reliable and passionate. You take a lot of pleasure in pursuing different hobbies and activities, which makes you have a vibrant life.",
+         "description2": "Your name indicates you receptive, charismatic and passionate. You have a deep desire to be a force of positive change to be bring people together."
+        }
+    },
+     {
+      "id": 18,
+      "male": 
+        {
+         "description1": "Your name indicates you are charismatic, determined and inspiring. You may often find yourself in leadership roles, which your main goal of being of service to others.",
+         "description2": "Your name indicates you are honest, direct and responsible. You desire to be effective in what you've chosen to do and aren't afraid of criticism."
+        },
+       "female": {
+         "description1": "Your name indicates you are honest, strong-willed and responsible. You have a strong send of integriy and are able to manage the reality of situations with plain and simple honesty.",
+         "description2": "Your name indicates you are practical, dutiful and responsible. You work hard to stay focused on your goals and are able to meet or exceed any of your obligations."
+        }
+    },
+     {
+      "id": 19,
+      "male": 
+        {
+         "description1": "Your name indicates you are calm, direct and a jack-of-all-trades. You are a proud repository of knowledge and are able to apply yourself to a variety of situations where you easily adapt and overcome.",
+         "description2": "Your name indicates you are bold, practical, and perceptive. You love to experiment with new ideas and solutions and think outside of the box."
+        },
+       "female": {
+         "description1": "Your name indicates you are bold, rational, and original. You prefer to communicate clearly with direct and factual questions and answers.",
+         "description2": "Your name indicates you are direct, rational, and sociable. You like to make the most use of your social interactions and networking opportunities."
+        }
+    },
+     {
+      "id": 20,
+      "male": 
+        {
+         "description1": "Your name indicates you are practical, observant and have great people skills. You have a deep desire to experience all there is in life and you aren't afraid to step out of your comfort zone.",
+         "description2": "Your name indicates you are entertaining, observant and have great people skills. You love deeply connecting with people on a meaningful level and have a natural ability to make people feel safe."
+        },
+       "female": {
+         "description1": "Your name indicates you are logical, observant and have great people skills. You love paying attention to people and almost never run out of things to discuss.",
+         "description2": "Your name indicates you are bold, original and have great people skills. Your happiness and satisfaction comes mostly from the quality time you spend with your loved ones."
+        }
+    },
+     {
+      "id": 21,
+      "male": 
+        {
+         "description1": "Your name indicates you are knowledgeable, original and charismatic. You love to analyse problems from every angle to find the best solutions.",
+         "description2": "Your name indicates you are and excellent brainstormer, original and charismatic. You are skilled and combining your knowledge and originality together to come up with optimal solutions."
+        },
+       "female": {
+         "description1": "Your name indicates you are original, a quick thinker and charismatic. You often have a with with words and wit with others find intriguing.",
+         "description2": "Your name indicates you are energetic, original and charismatic. Your quick thinking and ability to communicate in a variety of situations causes others to look up to you."
+        }
+    },
+     {
+      "id": 22,
+      "male": 
+        {
+         "description1": "Your name indicates you are empathetic, generous and open-minded. You prefer compassion over fault-finding and friends and loved ones often confide in you.",
+         "description2": "Your name indicates you are passionate, thoughtful and open-minded. Many of your peers "
+        },
+       "female": {
+         "description1": "Your name indicates you are idealistic, generous and open-minded. You have a strong sense of empathy and are often able to step into the shows of others which make people feel understood.",
+         "description2": "Your name indicates you are empathetic, kind-hearted and open-minded. You are an inspiring communicator and your strong convictions shine through when you speak."
+        }
+    },
+     {
+      "id": 23,
+      "male": 
+        {
+         "description1": "Your name indicates you are insightful, principled and empathetic. You are a strong communicator and your ability to see the best in people makes liked by many.",
+         "description2": "Your name indicates you generous, principled and empathetic. You are most fulfilled when your work aligns with your values and you have the opportunity to grow individually and to help others grow."
+        },
+       "female": {
+         "description1": "Your name indicates you are charismatic, principled and empathetic. You desire to be effective in what you've chosen to do and have a strong positive impact on the people around you.",
+         "description2": "Your name indicates you are thoughtful, principled and empathetic. You are highly adaptable to change and are able to apply yourself to a variety of situations."
+        }
+    },
+     {
+      "id": 24,
+      "male": 
+        {
+         "description1": "Your name indicates you desire truth, beauty and purpose. You love finding meaning in your work and are most fulfilled when you connect deeply with others.",
+         "description2": "Your name indicates you have a sense of mission, are passionate and enigmatic. You love to experiment with new ideas and solutions and to think outside of the box."
+        },
+       "female": {
+         "description1": "Your name indicates you are passionate, enigmatic and resourceful. You are able to foresee problems and at your best you are internally stable and self-reliant.",
+         "description2": "Your name indicates you passionate, enigmatic and insightful. You are highly motivating to those around you and are driven to developer yourslef and contribute your abilities to the world."
+        }
+    },
+     {
+      "id": 25,
+      "male": 
+        {
+         "description1": "Your name indicates you are compassionate, have integrity and deep values. You strive to get along with just about everyone and have a long list of acquaintances and friends.",
+         "description2": "Your name indicates you are sensitive, strong-willed and funny."
+        },
+       "female": {
+         "description1": "Your name indicates you are sensitive, strong-willed and thoughtful.",
+         "description2": "Your name indicates you are thoughtful, sensitive, and insightful. You strive to get along with just about everyone and are well trusted and looked up to among your peers."
+        }
+    },
+     {
+      "id": 26,
+      "male": 
+        {
+         "description1": "Your name indicates you are optimistic, energetic, and spontaneous. You are naturally social and experience a lot of joy in connecting with others.",
+         "description2": "Your name indicates you are optimistic, creative, and playful."
+        },
+       "female": {
+         "description1": "Your name indicates you are plaful, energetic, and rational. Though you are generally conservative, you also are able to develop robust deep relationships.",
+         "description2": "Your name indicates you are energetic, spontaneous, and great in crisis. You are efficient and responsible and give careful attention to the practical details in your daily life."
+        }
+    },
+     {
+      "id": 27,
+      "male": 
+        {
+         "description1": "Your name indicates you are loyal, sensitive and warm. You have a deep desire to make sure those that are close to you are well cared for.",
+         "description2": "Your name indicates you are practical, sensitive and warm. You have a storng sense of moral responsibility and strive to exceed your obligations."
+        },
+       "female": {
+         "description1": "Your name indicates you are loyal, sensitive and good at connecting with others. You are an extremely loyal and trustworthy partner and employee.",
+         "description2": "Your name indicates you are flexible, ambitious and warm. You tend to seek harmony and care deeply about the felings of others, often being careful to not offend or hurt anybody."
+        }
+    },
+     {
+      "id": 28,
+      "male": 
+        {
+         "description1": "Your name indicates you are efficient, energetic and self-confident. You are a true free spirit, open minded and out-going, people are drawn to your energy.",
+         "description2": "Your name indicates you are strong-willed, energetic and self-confident. You live a lively and upbeat life, but also long for meaningful connections with people." 
+        },
+       "female": {
+         "description1": "Your name indicates you are strategic, energetic and self-confident. You love to be friendly and outgoing and can't help but ponder the deeper meanings of life.",
+         "description2": "Your name indicates you are efficient, charismatic and self-confident. Your personality radiates positive energy that draws other people towards you."
+        }
+    },
+     {
+      "id": 29,
+      "male": 
+        {
+         "description1": "Your name indicates you are confident, imaginative and charismatic. You have a strong ability to think strategically and have a strong command presence.",
+         "description2": "Your name indicates you are a natural born leader, imaginative and charismatic."
+        },
+       "female": {
+         "description1": "Your name indicates you are insightful, logical and analytical. You have a deep desire to understand the mysteries of the universe and have a unique perspective.",
+         "description2": "Your name indicates you are bold, imaginative and charismatic. You are sensitive to other peoples moods or expressions and to other people's feelings and needs."
+        }
+    }
+  ]
+}
