@@ -26,3 +26,26 @@ exports.letters = {
   y: 0,
   z: 1,
 };
+
+exports.validateName = (name) => {
+  if (name.length < 2 || name.length > 13) {
+    return {
+      error: "Name must be a minimum of 2 characters and maximum of 13",
+    };
+  }
+  if (!name.match("^[a-zA-Z0-9]*$")) {
+    return {
+      error: "Name must not contain a symbol",
+    };
+  }
+  return name;
+};
+
+exports.validateGender = (gender) => {
+  if (gender !== "male" && gender !== "female") {
+    return {
+      error: "Invalid gender.",
+    };
+  }
+  return gender;
+};
