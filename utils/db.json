@@ -4,12 +4,12 @@
       "id": 0,
       "male": 
         {
-         "description1": "Your name indicates you have a basic desire to be good, have integrity and be balanced. In stressful situations you strive to be right and justify yourself. You are consistent with your ideals and seek to be above criticism.",
+         "description1": "Your name indicates you have a basic desire to be good, have integrity and be balanced. You are consistent with your ideals and seek to be above criticism.",
          "description2": "Your name indicates you have a strong desire to improve yourself and the world in many ways. You seek to overcome adversity and you strive for 'higher' values."
         },
        "female": {
          "description1": "Your name indicates you do not like to be condemned by anyone and seek to improve yourself and everything around you. You have a desire to be good and have strong integrity.",
-         "description2": "You are very strict with yourself and will seek to justify yourself in your own eyes and the eyes of thers. You have a desire to be good and have strong integrity. You are consistent with your ideals and seek to be above criticism."
+         "description2": "Your name indicates you have a desire to be good, moral and have strong integrity. You are consistent with your ideals and seek to be above criticism."
         }
     },
    {
@@ -32,7 +32,7 @@
          "description2": "Your name indicates you"
         },
        "female": {
-         "description1": "Your name indicates you have an open heart and desire to enliven the lives of others. You give people your appreciationa and your attention.",
+         "description1": "Your name indicates you have an open heart and desire to enliven the lives of others. You give people your appreciation and your attention.",
          "description2": "Your name indicates you are generous and outgoing. You are self-sacrificing and care about the depths of your relationships and spending quality time with people you care about."
         }
     },
@@ -45,7 +45,7 @@
         },
        "female": {
          "description1": "Your name indicates you desire to seek knowledge in everything around you. You find a sense of meaning by understanding how the world works, including your inner world.",
-         "description2": "Your name indicates you seek a deep understanding of yourself and everything around you. You believe that by developing this nich is the best way to gain your independence."
+         "description2": "Your name indicates you seek a deep understanding of yourself and everything around you. You believe that by developing this niche is the best way to gain your independence."
         }
     },
       {
@@ -88,7 +88,7 @@
       "id": 7,
       "male": 
         {
-         "description1": "Your name indicates you are self-assured and ambitious. You are often a role modely to others and desire to feel valuable and worthwhile.",
+         "description1": "Your name indicates you are self-assured and ambitious. You are often a role model to others and desire to feel valuable and worthwhile.",
          "description2": "Your name indicates you are self-assured, and charming. You are competent and energetic but also highly drive for advancement."
         },
        "female": {
@@ -124,7 +124,7 @@
       "male": 
         {
          "description1": "Your name indicates you want to find out why things are the way they are. You are an investigator. You are always searching, asking questions and love diving deep into different subjects.",
-         "description2": "Your name indicates you with deeply to connect with people who understand you and your feelings. You are self-aware, itrospective and on are the constant 'search for self'."
+         "description2": "Your name indicates you with deeply to connect with people who understand you and your feelings. You are self-aware, introspective and on are the constant 'search for self'."
         },
        "female": {
          "description1": "Your name indicates you are reliable, hard-working and responsible. You are great at solving problems and foster cooperation among your peers.",
@@ -147,12 +147,12 @@
       "id": 12,
       "male": 
         {
-         "description1": "Your name indicates you are optimistic and spontaneous. People love your playful spirit and you constanstly seek new and exciting experiences.",
+         "description1": "Your name indicates you are optimistic and spontaneous. People love your playful spirit and you constantly seek new and exciting experiences.",
          "description2": "Your name indicates you are optimistic, versatile and a fast learner. You desire to maintain your freedom and happiness."
         },
        "female": {
          "description1": "Your name indicates you are self-assured, ambitious and self-reliant. You desire to make a positive lasting impact on those around you and be remembered for your good nature.",
-         "description2": "Your name indicates you are self-confident and assertive. You are resouceful, protective and desire to be in control of your environment."
+         "description2": "Your name indicates you are self-confident and assertive. You are resourceful, protective and desire to be in control of your environment."
         }
     },
     {
@@ -160,7 +160,7 @@
       "male": 
         {
          "description1": "Your name indicates you enjoy taking on challenges and also giving others the opportunity to succeed. You are self-sacrificing and care about the depths of your relationships and spending quality time with people you care about.",
-         "description2": "Your name indicates you are charismastic and self-reliant. You are optimistic and upbeat, people often feel safe and enjoy being around you."
+         "description2": "Your name indicates you are charismatic and self-reliant. You are optimistic and upbeat, people often feel safe and enjoy being around you."
         },
        "female": {
          "description1": "Your name indicates you are accepting, trusting and stable. You desire to be deeply connected to your inner guidance and have a positive influence on those you care most about.",
@@ -183,8 +183,8 @@
       "id": 15,
       "male": 
         {
-         "description1": "Your name indicates you are insightful, principled, and passionate. You find beauty in everything and are not afaid to venture beyong your comfort zone to have new experiences.",
-         "description2": "Your name indicates you are insightful, altruistic, and passionate. You are sensitive to other peoples moods or expressions and to other people's feelings and needs."
+         "description1": "Your name indicates you are insightful, principled, and passionate. You find beauty in everything and are not afraid to venture beyond your comfort zone to have new experiences.",
+         "description2": "Your name indicates you are insightful, altruistic, and passionate. You are sensitive to other people's moods or expressions and to other people's feelings and needs."
         },
        "female": {
          "description1": "Your name indicates you are insightful, creative, and passionate. You have a lot to say but you are also a caring listener and have an innate ability to have positive and enjoyable conversations with all kinds of people.",
@@ -194,12 +194,12 @@
       "id": 16,
       "male": 
         {
-         "description1": "Your name indicates you are curious, ethusiastic and perceptive. You desire to have deep meaningul conversations but also have the ability to be spontaneous and lighthearted.",
-         "description2": "Your name indicates you are good-natured, ethusiastic and perceptive. You have an innate ability to have positive and enjoyable conversations with all kinds of people."
+         "description1": "Your name indicates you are curious, enthusiastic and perceptive. You desire to have deep meaningful conversations but also have the ability to be spontaneous and lighthearted.",
+         "description2": "Your name indicates you are good-natured, enthusiastic and perceptive. You have an innate ability to have positive and enjoyable conversations with all kinds of people."
         },
        "female": {
-         "description1": "Your name indicates you are curious, insightful and perceptive. You are sensitive to other peoples moods or expressions and to other people's feelings and needs.",
-         "description2": "Your name indicates you are creative, ethusiastic and optimistic. You have an incredible ability to have positive and enjoyable conversations with all sorts of people, even with ones you may not agree with." 
+         "description1": "Your name indicates you are curious, insightful and perceptive. You are sensitive to other people's moods or expressions and to other people's feelings and needs.",
+         "description2": "Your name indicates you are creative, enthusiastic and optimistic. You have an incredible ability to have positive and enjoyable conversations with all sorts of people, even with ones you may not agree with." 
         }
     },
      {
@@ -222,7 +222,7 @@
          "description2": "Your name indicates you are honest, direct and responsible. You desire to be effective in what you've chosen to do and aren't afraid of criticism."
         },
        "female": {
-         "description1": "Your name indicates you are honest, strong-willed and responsible. You have a strong send of integriy and are able to manage the reality of situations with plain and simple honesty.",
+         "description1": "Your name indicates you are honest, strong-willed and responsible. You have a strong send of integrity and are able to manage the reality of situations with plain and simple honesty.",
          "description2": "Your name indicates you are practical, dutiful and responsible. You work hard to stay focused on your goals and are able to meet or exceed any of your obligations."
         }
     },
@@ -254,11 +254,11 @@
       "id": 21,
       "male": 
         {
-         "description1": "Your name indicates you are knowledgeable, original and charismatic. You love to analyse problems from every angle to find the best solutions.",
-         "description2": "Your name indicates you are and excellent brainstormer, original and charismatic. You are skilled and combining your knowledge and originality together to come up with optimal solutions."
+         "description1": "Your name indicates you are knowledgeable, original and charismatic. You love to analyze problems from every angle to find the best solutions.",
+         "description2": "Your name indicates you are and excellent brain-stormer, original and charismatic. You are skilled and combining your knowledge and originality together to come up with optimal solutions."
         },
        "female": {
-         "description1": "Your name indicates you are original, a quick thinker and charismatic. You often have a with with words and wit with others find intriguing.",
+         "description1": "Your name indicates you are original, a quick thinker and charismatic. You often have a with words and wit with others find intriguing.",
          "description2": "Your name indicates you are energetic, original and charismatic. Your quick thinking and ability to communicate in a variety of situations causes others to look up to you."
         }
     },
@@ -295,7 +295,7 @@
         },
        "female": {
          "description1": "Your name indicates you are passionate, enigmatic and resourceful. You are able to foresee problems and at your best you are internally stable and self-reliant.",
-         "description2": "Your name indicates you passionate, enigmatic and insightful. You are highly motivating to those around you and are driven to developer yourslef and contribute your abilities to the world."
+         "description2": "Your name indicates you passionate, enigmatic and insightful. You are highly motivating to those around you and are driven to developer yourself and contribute your abilities to the world."
         }
     },
      {
@@ -327,11 +327,11 @@
       "male": 
         {
          "description1": "Your name indicates you are loyal, sensitive and warm. You have a deep desire to make sure those that are close to you are well cared for.",
-         "description2": "Your name indicates you are practical, sensitive and warm. You have a storng sense of moral responsibility and strive to exceed your obligations."
+         "description2": "Your name indicates you are practical, sensitive and warm. You have a strong sense of moral responsibility and strive to exceed your obligations."
         },
        "female": {
          "description1": "Your name indicates you are loyal, sensitive and good at connecting with others. You are an extremely loyal and trustworthy partner and employee.",
-         "description2": "Your name indicates you are flexible, ambitious and warm. You tend to seek harmony and care deeply about the felings of others, often being careful to not offend or hurt anybody."
+         "description2": "Your name indicates you are flexible, ambitious and warm. You tend to seek harmony and care deeply about the feelings of others, often being careful to not offend or hurt anybody."
         }
     },
      {
@@ -355,7 +355,7 @@
         },
        "female": {
          "description1": "Your name indicates you are insightful, logical and analytical. You have a deep desire to understand the mysteries of the universe and have a unique perspective.",
-         "description2": "Your name indicates you are bold, imaginative and charismatic. You are sensitive to other peoples moods or expressions and to other people's feelings and needs."
+         "description2": "Your name indicates you are bold, imaginative and charismatic. You are sensitive to other people's moods or expressions and to other people's feelings and needs."
         }
     }
   ]
