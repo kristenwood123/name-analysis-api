@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40.74% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/27</span>
+                <span class='fraction'>27/27</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">12.5% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/8</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">44% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/25</span>
+                <span class='fraction'>25/25</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -126,42 +126,42 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -182,37 +182,37 @@ app.get("/api/:firstName/:gender/:age", (req, res) =&gt; {
 &nbsp;
   // Name Validation
   const nameError = validateName(firstName).error;
-  <span class="missing-if-branch" title="else path not taken" >E</span>if (nameError) {
+  if (nameError) {
     return res.status(400).send({ nameError });
   }
 &nbsp;
   // Gender Validation
-  const genderError = <span class="cstat-no" title="statement not covered" >validateGender(gender).error;</span>
-<span class="cstat-no" title="statement not covered" >  if (genderError) {</span>
-<span class="cstat-no" title="statement not covered" >    return res.status(400).send({ genderError });</span>
+  const genderError = validateGender(gender).error;
+  if (genderError) {
+    return res.status(400).send({ genderError });
   }
 &nbsp;
   // Age Validation
-  const ageError = <span class="cstat-no" title="statement not covered" >validateAge(age).error;</span>
-<span class="cstat-no" title="statement not covered" >  if (ageError) {</span>
-<span class="cstat-no" title="statement not covered" >    return res.status(400).send({ ageError });</span>
+  const ageError = validateAge(age).error;
+  if (ageError) {
+    return res.status(400).send({ ageError });
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; firstName.length; i++) {</span>
-    let current = <span class="cstat-no" title="statement not covered" >firstName[i];</span>
-<span class="cstat-no" title="statement not covered" >    sumOfName += letters[current];</span>
+  for (let i = 0; i &lt; firstName.length; i++) {
+    let current = firstName[i];
+    sumOfName += letters[current];
   }
 &nbsp;
   // Name Analysis
-  let nameAnalysis = <span class="cstat-no" title="statement not covered" >data.users.find(<span class="fstat-no" title="function not covered" >(d</span>esc) =&gt; <span class="cstat-no" title="statement not covered" >desc.id === sumOfName)</span>[gender];</span>
+  let nameAnalysis = data.users.find((desc) =&gt; desc.id === sumOfName)[gender];
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (age &gt;= 50) {</span>
-<span class="cstat-no" title="statement not covered" >    nameAnalysis = nameAnalysis["description1"];</span>
+  if (age &lt;= 50) {
+    nameAnalysis = nameAnalysis["description1"];
   } else {
-<span class="cstat-no" title="statement not covered" >    nameAnalysis = nameAnalysis["description2"];</span>
+    nameAnalysis = nameAnalysis["description2"];
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  res.status(200).send({ analysis: nameAnalysis });</span>
+  res.status(200).send({ analysis: nameAnalysis });
 });
 &nbsp;
 module.exports = app;
@@ -223,7 +223,7 @@ module.exports = app;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sat Jan 22 2022 22:12:18 GMT-0800 (Pacific Standard Time)
+                at Sat Jan 22 2022 22:16:35 GMT-0800 (Pacific Standard Time)
             </div>
         <script src="../prettify.js"></script>
         <script>

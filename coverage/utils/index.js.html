@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/15</span>
+                <span class='fraction'>15/15</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">14.28% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/14</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">33.33% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/3</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/15</span>
+                <span class='fraction'>15/15</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -153,35 +153,35 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">exports.letters = {
   a: 0,
@@ -213,35 +213,35 @@
 };
 &nbsp;
 exports.validateName = (name) =&gt; {
-  <span class="missing-if-branch" title="else path not taken" >E</span>if (name.length &lt; 2 || <span class="branch-1 cbranch-no" title="branch not covered" >name.length &gt; 13)</span> {
+  if (name.length &lt; 2 || name.length &gt; 13) {
     return {
       error: "Name must be a minimum of 2 characters and maximum of 13",
     };
   }
-<span class="cstat-no" title="statement not covered" >  if (!name.match("^[a-zA-Z0-9]*$")) {</span>
-<span class="cstat-no" title="statement not covered" >    return {</span>
+  if (!name.match("^[a-zA-Z0-9]*$")) {
+    return {
       error: "Name must not contain a symbol",
     };
   }
-<span class="cstat-no" title="statement not covered" >  return name;</span>
+  return name;
 };
 &nbsp;
-exports.validateGender = <span class="fstat-no" title="function not covered" >(g</span>ender) =&gt; {
-<span class="cstat-no" title="statement not covered" >  if (gender !== "male" &amp;&amp; gender !== "female") {</span>
-<span class="cstat-no" title="statement not covered" >    return {</span>
+exports.validateGender = (gender) =&gt; {
+  if (gender !== "male" &amp;&amp; gender !== "female") {
+    return {
       error: "Invalid gender.",
     };
   }
-<span class="cstat-no" title="statement not covered" >  return gender;</span>
+  return gender;
 };
 &nbsp;
-exports.validateAge = <span class="fstat-no" title="function not covered" >(a</span>ge) =&gt; {
-<span class="cstat-no" title="statement not covered" >  if (age &lt; 0 || age &gt; 120) {</span>
-<span class="cstat-no" title="statement not covered" >    return {</span>
+exports.validateAge = (age) =&gt; {
+  if (age &lt; 0 || age &gt; 120) {
+    return {
       error: "Age must be more than 0 and less than 120 years old.",
     };
   }
-<span class="cstat-no" title="statement not covered" >  return age;</span>
+  return age;
 };
 &nbsp;</pre></td></tr></table></pre>
 
@@ -250,7 +250,7 @@ exports.validateAge = <span class="fstat-no" title="function not covered" >(a</s
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sat Jan 22 2022 22:12:18 GMT-0800 (Pacific Standard Time)
+                at Sat Jan 22 2022 22:16:35 GMT-0800 (Pacific Standard Time)
             </div>
         <script src="../prettify.js"></script>
         <script>

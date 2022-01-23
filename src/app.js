@@ -39,7 +39,7 @@ app.get("/api/:firstName/:gender/:age", (req, res) => {
   // Name Analysis
   let nameAnalysis = data.users.find((desc) => desc.id === sumOfName)[gender];
 
-  if (age >= 50) {
+  if (age <= 50) {
     nameAnalysis = nameAnalysis["description1"];
   } else {
     nameAnalysis = nameAnalysis["description2"];
