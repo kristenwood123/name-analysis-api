@@ -2,7 +2,7 @@ const request = require("supertest");
 const assert = require("assert");
 const app = require("./../src/app");
 
-describe("API", () => {
+describe("API Name verification", () => {
   it("should return an error due to incorrect character length", () => {
     request(app)
       .get("/api/f/male/35")
@@ -16,9 +16,9 @@ describe("API", () => {
         });
       });
   });
-});
+  // });
 
-describe("API", () => {
+  // describe("API", () => {
   it("should return an error due to a symbol", () => {
     request(app)
       .get("/api/fran'k/male/35")
