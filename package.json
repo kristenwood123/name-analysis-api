@@ -4,8 +4,10 @@
   "description": "Name Analysis REST API",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha test/*.test.js --reporter spec",
-    "start": "node server.js"
+    "test": "env-cmd -f .env nyc --reporter=html --reporter=text mocha test/*.test.js --reporter spec",
+    "test:watch": "nyc --reporter=html --reporter=text mocha test/*.test.js --reporter spec --watch",
+    "start": "node server.js",
+    "dev": "env-cmd -f .env nodemon server.js"
   },
   "author": "Kristen Woodward",
   "license": "ISC",
@@ -14,7 +16,9 @@
     "supertest": "^6.2.2"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "mocha": "^9.1.4",
+    "nodemon": "^2.0.15",
     "nyc": "^15.1.0"
   }
 }

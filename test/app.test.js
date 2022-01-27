@@ -16,9 +16,7 @@ describe("API Name verification", () => {
         });
       });
   });
-  // });
 
-  // describe("API", () => {
   it("should return an error due to a symbol", () => {
     request(app)
       .get("/api/fran'k/male/35")
@@ -34,7 +32,7 @@ describe("API Name verification", () => {
   });
 });
 
-describe("API", () => {
+describe("API Gender Verification", () => {
   it("should return an error due to incorrect gender", () => {
     request(app)
       .get("/api/frank/mal/35")
@@ -50,7 +48,7 @@ describe("API", () => {
   });
 });
 
-describe("API", () => {
+describe("API Age Verification", () => {
   it("should return an error due to incorrect age", () => {
     request(app)
       .get("/api/frank/male/-1")
@@ -64,26 +62,30 @@ describe("API", () => {
         });
       });
   });
-});
 
-describe("API", () => {
-  it("should be able to return correct value for an age below 50", () => {
+  it.only("should be able to return correct value for an age below 50", () => {
+    const headers = {
+      ["x-api-key"]: process.env.API_KEY,
+    };
     request(app)
       .get("/api/frank/male/35")
+      .set(headers)
       .expect(200)
-      .expect("Content-Type", /json/)
+      .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
 
-        assert.deepEqual(res.body, {
-          analysis:
-            "Your name indicates you want to find out why things are the way they are. You are an investigator. You are always searching, asking questions and love diving deep into different subjects.",
-        });
+        assert.match(
+          res.text,
+          /Your name is frank, you are a male and currently 35 years old/
+        );
+        assert.match(
+          res.text,
+          /Your name indicates you want to find out why things are the way they are\. You are an investigator\. You are always searching, asking questions and love diving deep into different subjects\./
+        );
       });
   });
-});
 
-describe("API", () => {
   it("should be able to return correct value for an age above 50", () => {
     request(app)
       .get("/api/frank/male/60")

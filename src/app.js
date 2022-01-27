@@ -8,6 +8,7 @@ const {
   validateGender,
   validateAge,
 } = require("../utils/index");
+const { verifyApiKey } = require("../src/middleware");
 
 app.get("/", (req, res) => {
   res
@@ -17,7 +18,8 @@ app.get("/", (req, res) => {
     );
 });
 
-app.get("/api/:firstName/:gender/:age", (req, res) => {
+app.get("/api/:firstName/:gender/:age", verifyApiKey, (req, res) => {
+  console.log("running analysis");
   try {
     const { firstName, gender, age } = req.params;
     let sumOfName = 0;
@@ -55,12 +57,13 @@ app.get("/api/:firstName/:gender/:age", (req, res) => {
     }
 
     const resp = `
+    <div style='background-color:'pink'>
     <h2>Hurray! Your result arrived</h2>
     <hr>
-    <h4>Your name is ${firstName}, you are a ${gender} and currently ${age} years old <h4> 
+    <h6>Your name is ${firstName}, you are a ${gender} and currently ${age} years old <h6> 
     <br> 
-    Name Analysis: <p>${nameAnalysis}</p>`;
-    //res.status(200).send({ analysis: nameAnalysis });
+    Name Analysis: <p style='color:red'>${nameAnalysis}</p>
+    </div>`;
     res.status(200).send(resp);
   } catch (error) {
     res.status(500).send("Error analysing the data::", error);

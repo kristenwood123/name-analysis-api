@@ -16,6 +16,9 @@ Clone this repository and install dependencies
 > after installation, run `node server.js` from the root of the application
 The API is available at https://localhost:3000
 
+### Test
+run `npm test`
+
 ### Endpoints
 `/` - Home page
 `/api/:firstName/:gender/:age` - the route to pass your information where firstname, gender and age are your data
