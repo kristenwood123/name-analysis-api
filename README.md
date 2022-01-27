@@ -1,6 +1,8 @@
 # REST API Name Analysis
 
 This API allows you to find out what your name says about you with a name analysis!
+
+
 The API is available at https://localhost:3000
 
 
@@ -11,4 +13,8 @@ Clone this repository and install dependencies
 > cd name-analysis-api
 > npm install
 ```
+
+## Endpoints
+
+### Status
 
