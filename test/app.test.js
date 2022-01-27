@@ -64,12 +64,12 @@ describe("API Age Verification", () => {
   });
 
   it.only("should be able to return correct value for an age below 50", () => {
-    const headers = {
-      ["x-api-key"]: process.env.API_KEY,
+    const query = {
+      ["API_KEY"]: process.env.API_KEY,
     };
     request(app)
       .get("/api/frank/male/35")
-      .set(headers)
+      .query(query)
       .expect(200)
       .expect("Content-Type", /text\/html/)
       .end(function (err, res) {

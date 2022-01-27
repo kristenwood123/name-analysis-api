@@ -1,5 +1,5 @@
 const verifyApiKey = (req, res, next) => {
-  if (req.headers["x-api-key"] === process.env.API_KEY) {
+  if (req.query["API_KEY"] === process.env.API_KEY) {
     return next();
   }
   res.status(401).send("unauthorized");
