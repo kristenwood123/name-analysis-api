@@ -19,7 +19,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/:firstName/:gender/:age", verifyApiKey, (req, res) => {
-  console.log("running analysis");
   try {
     const { firstName, gender, age } = req.params;
     let sumOfName = 0;
