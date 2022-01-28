@@ -79,7 +79,7 @@ describe("API Age Verification", () => {
 
         assert.match(
           res.text,
-          /Your name is frank, you are a male and currently 35 years old/
+          /Your name is FRANK\. You are a male and currently 35 years old./
         );
         assert.match(
           res.text,
@@ -99,7 +99,7 @@ describe("API Age Verification", () => {
 
         assert.match(
           res.text,
-          /Your name is frank, you are a male and currently 60 years old/
+          /Your name is FRANK\. You are a male and currently 60 years old./
         );
         assert.match(
           res.text,
