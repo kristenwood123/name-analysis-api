@@ -30,12 +30,27 @@ exports.letters = {
 exports.validateName = (name) => {
   if (name.length < 2 || name.length > 13) {
     return {
-      error: "Name must be a minimum of 2 characters and maximum of 13",
+      error: `
+        <body style='margin: 0'>
+          <div style='margin:0;background-color:#99D0C7;color:#1A1B1B;height:100vh;width:100%;'>
+            <div style='background-color:#FCF5EC;flex-direction:column;justify-content:center;align-items:center;margin:auto;height:350px;width:800px;position:fixed;top:0;bottom:0;left:0;right:0;border-radius:8px;text-align:center;padding:2rem;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);color:#5B6274'>
+              <h1 style='color:#F1863B'>Oops!</h1>
+              <h3>Name must be a minimum of 2 characters and maximum of 13.</h3>
+            </div>
+          </div>
+        </body>`,
     };
   }
   if (!name.match("^[a-zA-Z0-9]*$")) {
     return {
-      error: "Name must not contain a symbol",
+      error: `<body style='margin: 0'>
+          <div style='margin:0;background-color:#99D0C7;color:#1A1B1B;height:100vh;width:100%;'>
+            <div style='background-color:#FCF5EC;flex-direction:column;justify-content:center;align-items:center;margin:auto;height:350px;width:800px;position:fixed;top:0;bottom:0;left:0;right:0;border-radius:8px;text-align:center;padding:2rem;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);color:#5B6274'>
+              <h1 style='color:#F1863B'>Oops!</h1>
+              <h3>Name must not contain a symbol.</h3>
+            </div>
+          </div>
+        </body>`,
     };
   }
   return name;
@@ -44,7 +59,14 @@ exports.validateName = (name) => {
 exports.validateGender = (gender) => {
   if (gender !== "male" && gender !== "female") {
     return {
-      error: "Invalid gender.",
+      error: `<body style='margin: 0'>
+          <div style='margin:0;background-color:#99D0C7;color:#1A1B1B;height:100vh;width:100%;'>
+            <div style='background-color:#FCF5EC;flex-direction:column;justify-content:center;align-items:center;margin:auto;height:350px;width:800px;position:fixed;top:0;bottom:0;left:0;right:0;border-radius:8px;text-align:center;padding:2rem;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);color:#5B6274'>
+              <h1 style='color:#F1863B'>Oops!</h1>
+              <h3>Invalid gender.</h3>
+            </div>
+          </div>
+        </body>`,
     };
   }
   return gender;
@@ -53,7 +75,14 @@ exports.validateGender = (gender) => {
 exports.validateAge = (age) => {
   if (age < 0 || age > 120) {
     return {
-      error: "Age must be more than 0 and less than 120 years old.",
+      error: `<body style='margin: 0'>
+          <div style='margin:0;background-color:#99D0C7;color:#1A1B1B;height:100vh;width:100%;'>
+            <div style='background-color:#FCF5EC;flex-direction:column;justify-content:center;align-items:center;margin:auto;height:350px;width:800px;position:fixed;top:0;bottom:0;left:0;right:0;border-radius:8px;text-align:center;padding:2rem;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);color:#5B6274'>
+              <h1 style='color:#F1863B'>Oops!</h1>
+              <h3>Age must be more than 0 and less than 120 years old.</h3>
+            </div>
+          </div>
+        </body>`,
     };
   }
   return age;

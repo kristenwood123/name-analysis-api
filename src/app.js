@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res
     .status(200)
     .send(
-      " Welcome to my Name Analysis App. \n Go to /api/:firstName/:gender/:age route where firstname, gender and age are your informations"
+      "Welcome to my Name Analysis App. \n Go to /api/:firstName/:gender/:age route where firstname, gender and age are your informations"
     );
 });
 
@@ -26,19 +26,19 @@ app.get("/api/:firstName/:gender/:age", verifyApiKey, (req, res) => {
     // Name Validation
     const nameError = validateName(firstName).error;
     if (nameError) {
-      return res.status(400).send({ nameError });
+      return res.status(400).send(nameError);
     }
 
     // Gender Validation
     const genderError = validateGender(gender).error;
     if (genderError) {
-      return res.status(400).send({ genderError });
+      return res.status(400).send(genderError);
     }
 
     // Age Validation
     const ageError = validateAge(age).error;
     if (ageError) {
-      return res.status(400).send({ ageError });
+      return res.status(400).send(ageError);
     }
 
     for (let i = 0; i < firstName.length; i++) {

@@ -10,13 +10,13 @@ describe("API Name verification", () => {
       .get("/api/f/male/35")
       .query(query)
       .expect(400)
-      .expect("Content-Type", /json/)
+      .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
-
-        assert.deepEqual(res.body, {
-          nameError: "Name must be a minimum of 2 characters and maximum of 13",
-        });
+        assert.match(
+          res.text,
+          /Name must be a minimum of 2 characters and maximum of 13\./
+        );
       });
   });
 
@@ -25,13 +25,10 @@ describe("API Name verification", () => {
       .get("/api/fran'k/male/35")
       .query(query)
       .expect(400)
-      .expect("Content-Type", /json/)
+      .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
-
-        assert.deepEqual(res.body, {
-          nameError: "Name must not contain a symbol",
-        });
+        assert.match(res.text, /Name must not contain a symbol\./);
       });
   });
 });
@@ -41,13 +38,10 @@ describe("API Gender Verification", () => {
     request(app)
       .get("/api/frank/mal/35")
       .expect(400)
-      .expect("Content-Type", /json/)
+      .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
-
-        assert.deepEqual(res.body, {
-          genderError: "Invalid gender.",
-        });
+        assert.match(res.text, /Invalid gender\./);
       });
   });
 });
@@ -58,13 +52,13 @@ describe("API Age Verification", () => {
       .get("/api/frank/male/-1")
       .query(query)
       .expect(400)
-      .expect("Content-Type", /json/)
+      .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
-
-        assert.deepEqual(res.body, {
-          ageError: "Age must be more than 0 and less than 120 years old.",
-        });
+        assert.match(
+          res.text,
+          /Age must be more than 0 and less than 120 years old\./
+        );
       });
   });
 
