@@ -20,7 +20,8 @@ app.get("/", (req, res) => {
 
 app.get("/api/:firstName/:gender/:age", verifyApiKey, (req, res) => {
   try {
-    const { firstName, gender, age } = req.params;
+    let { firstName, gender, age } = req.params;
+    firstName = firstName.trim().replace(/\s/g, "");
     let sumOfName = 0;
 
     // Name Validation

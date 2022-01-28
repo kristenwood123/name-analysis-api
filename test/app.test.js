@@ -13,6 +13,7 @@ describe("API Name verification", () => {
       .expect("Content-Type", /text\/html/)
       .end(function (err, res) {
         if (err) throw err;
+
         assert.match(
           res.text,
           /Name must be a minimum of 2 characters and maximum of 13\./

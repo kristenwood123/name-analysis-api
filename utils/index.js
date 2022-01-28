@@ -41,7 +41,7 @@ exports.validateName = (name) => {
         </body>`,
     };
   }
-  if (!name.match("^[a-zA-Z0-9]*$")) {
+  if (!name.match("^[a-zA-Z0-9\\s]*$")) {
     return {
       error: `<body style='margin: 0'>
           <div style='margin:0;background-color:#99D0C7;color:#1A1B1B;height:100vh;width:100%;'>
